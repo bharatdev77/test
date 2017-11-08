@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.container{ width:1170px; margin:auto;}
+.testimonials{ background-image:url(../images/testimonial_bg.jpg); background-repeat:no-repeat; text-align:
+center; margin:auto; padding:30px 0 40px 0;}
+
+.client_says span {color: #910000;}
+.client_says h2 {font-size: 40px;margin: 0; color:#000;}
+.slider_item_section{ background:#fff; margin:auto; margin-top:120px; box-shadow:0 0 5px 0 #ccc; padding:0 0 80px; border:2px solid #dddddd; max-width:82%;}
+.slider_item_section img{ display:inline-block !important; position:relative; margin:-80px 0 0;}
+.slider_item_section p {color: #403f3f;font-size: 19px;line-height: 26px;margin: auto;width: 80%;}
+.testimonials .owl-theme .owl-nav.disabled + .owl-dots {margin-top: -60px;position: relative; z-index: 99;}
+.slider_item_section h3 {color: #910000;font-size: 24px;}
+.testimonials .owl-theme .owl-dots .owl-dot span{ width:14px; height:14px; background:none; border:1px solid #910000;}
+.testimonials .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{ background:#910000;}
+.slider_item_section img:hover{ -webkit-box-shadow: -1px 4px 10px 1px rgba(0, 0, 0, 0.84);
+-moz-box-shadow: -1px 4px 10px 1px rgba(0, 0, 0, 0.84);
+box-shadow: -1px 4px 10px 1px rgba(0, 0, 0, 0.84); border-radius:50%; transition:all ease 0.8s;}
+
+/**.testimonials_two2{ background-image:url(../images/testimonial_bg1.jpg); background-repeat:no-repeat; padding:70px 0 50px 0;}
+
+.testimonials_two2 h2 {font-size: 40px;margin: 0 0 60px 0; color:#fff; position:relative;}
+.client_says_two2 p {color: #ffffff;font-size: 17px; margin:20px 0 0 0 ;}
+.client_says_two2 h3 {color: #fff;font-size: 21px;}
+.clients_says_one span{ color:#f66b6b}**/
+.testimonial_videos{ text-align:center}
+.testimonial_videos p{ margin:10px 0 30px 0; font-size:17px; }
+.testimonial_videos h2 {color: #000;font-size: 40px; text-align:center; margin:70px 0 0px 0}
+.video1_scton {float: left;width: 500px;}
+.video1_scton video {height: 370px;width: 450px; border:12px inset #000;}
+.video2_secton video {height: 370px;width: 450px; border:12px inset #000;}
+.video_matter {margin: auto;max-width: 86%;}
+.video2_secton {display: inline-block;text-align: right;width: 500px;}

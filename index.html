@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="../../../favicon.ico">
+<title>W3 on demand</title>
+
+<!-- owl slieder CSS -->
+
+<link href="css/owl.carousel.css" rel="stylesheet">
+<link href="css/owl.theme.default.min.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="css/style.css" rel="stylesheet">
+
+<!-- java script-->
+<script src="js/owl.carousel.js"></script>
+</head>
+
+<body>
+<div class="testimonials">
+  <div class="container">
+    <div class="client_says">
+      <h2>What our Client’s <span>Says</span></h2>
+      <div id="owl-demo" class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="slider_item_section"> <a href="#"> <img src="images/clients1.png" alt="client"></a>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+              has been the industry's standard dummy text ever since the 1500s, when an unknown
+              printer took a galley of type and scrambled it to make a type specimen book. It has 
+              survived not only five centuries, but also the leap into electronic typesetting, remaining 
+              essentially unchanged. It was popularised in the 1960s with the release of Letraset
+              sheets containing Lorem Ipsum passages</p>
+            <h3>Thoms Villiam (United States)</h3>
+          </div>
+        </div>
+        <div class="item">
+          <div class="slider_item_section"> <a href="#"> <img src="images/clients1.png" alt="client"></a>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+              has been the industry's standard dummy text ever since the 1500s, when an unknown
+              printer took a galley of type and scrambled it to make a type specimen book. It has 
+              survived not only five centuries, but also the leap into electronic typesetting, remaining 
+              essentially unchanged. It was popularised in the 1960s with the release of Letraset
+              sheets containing Lorem Ipsum passages</p>
+            <h3>Thoms Villiam (United States)</h3>
+          </div>
+        </div>
+        <div class="item">
+          <div class="slider_item_section"> <a href="#"> <img src="images/clients1.png" alt="client"></a>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+              has been the industry's standard dummy text ever since the 1500s, when an unknown
+              printer took a galley of type and scrambled it to make a type specimen book. It has 
+              survived not only five centuries, but also the leap into electronic typesetting, remaining 
+              essentially unchanged. It was popularised in the 1960s with the release of Letraset
+              sheets containing Lorem Ipsum passages</p>
+            <h3>Thoms Villiam (United States)</h3>
+          </div>
+        </div>
+        <div class="item">
+          <div class="slider_item_section"> <a href="#"> <img src="images/clients1.png" alt="client"></a>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+              has been the industry's standard dummy text ever since the 1500s, when an unknown
+              printer took a galley of type and scrambled it to make a type specimen book. It has 
+              survived not only five centuries, but also the leap into electronic typesetting, remaining 
+              essentially unchanged. It was popularised in the 1960s with the release of Letraset
+              sheets containing Lorem Ipsum passages</p>
+            <h3>Thoms Villiam (United States)</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- video section start -->
+<div class="testimonial_videos">
+  <div class="container">
+    <h2>VIDEO TESTIMONIALS</h2>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industrytext of the printing and typesetting industry.</p>
+    <div class="video_matter">
+      <div class="video1_scton">
+        <video controls>
+          <source src="video/video1.mp4" type="video/mp4">
+          <source src="video/video1.ogg" type="video/ogg">
+        </video>
+      </div>
+      <div class="video2_secton">
+        <video controls>
+          <source src="video/video2.mp4" type="video/mp4">
+          <source src="video/video2.ogg" type="video/ogg">
+       </video>
+      </div>
+    </div>
+  </div>
+</div>       
+<!-- video section end --> 
+
+<script src="js/jquery.min.js"></script> 
+<script type="text/javascript" src="js/owl.carousel.js"></script> 
+<script>
+
+
+    $(document).ready(function() {
+     
+      var owl = $("#owl-demo");
+     
+      owl.owlCarousel({
+          items : 1, //10 items above 1000px browser width
+          itemsDesktop : [1000,5], //5 items between 1000px and 901px
+          itemsDesktopSmall : [900,3], // betweem 900px and 601px
+          itemsTablet: [600,2], //2 items between 600 and 0
+          itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+      });
+     
+      // Custom Navigation Events
+      $(".next").click(function(){
+        owl.trigger('owl.next');
+      })
+      $(".prev").click(function(){
+        owl.trigger('owl.prev');
+      })
+      $(".play").click(function(){
+        owl.trigger('owl.play',1000); //owl.play event accept autoPlay speed as second parameter
+      })
+      $(".stop").click(function(){
+        owl.trigger('owl.stop');
+      })
+     
+    });
+
+
+ 
+</script>
+</body>
+</html>
